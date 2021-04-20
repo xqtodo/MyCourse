@@ -1,2 +1,2 @@
-# MyClass
-记录课上代码
+# MyCourse
+>记录课上代码
