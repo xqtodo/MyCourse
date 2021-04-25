@@ -1,4 +1,4 @@
-package com.atguigu;
+package com.atguigu.reflect;
 
 public class reflection {
 
@@ -15,10 +15,10 @@ public class reflection {
 		System.out.println(obj==reflect);//不是同一个对象
 		System.out.println(reflect);
 	}
-	
+
 	private int age;
 	private String name;
-	
+
 	public void setAge(int age){
 		this.age=age;
 	}

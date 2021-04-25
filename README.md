@@ -1,2 +1,2 @@
-# MyCourse
->记录课上代码
+# MyCourse😄
+>课上写的一些代码
