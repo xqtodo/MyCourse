@@ -8,5 +8,6 @@
 > 例如：遍历集合 `list.foreach(System.out::println);` <br>
 **因为要引用方法的中有参数，所以不就不用在lambda表达式主体中声明参数**<br>
 拿到 list 集合中的一个参数后，会根据参数找到对应方法的重载方法，`println(String x)`并调用
-
+##### 2021/4/26-Stream流 详细
+> 
 
