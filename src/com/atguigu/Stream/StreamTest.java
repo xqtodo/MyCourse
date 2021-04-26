@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
  * @author lixq
  * @date 2021/4/25 16:22
  */
-public class StreamTest {
+public class   StreamTest {
     public static void main(String[] args) {
         /*
             生成流
