@@ -1,9 +1,6 @@
 package iuc.auok.Stream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -30,6 +27,12 @@ public class csdn {
         List<Integer> list = Arrays.asList(1, 3, 2, 8, 11, 4);
         Optional<Integer> reduce = list.stream().reduce(Integer::sum);
         System.out.println(reduce);
+
+        /*排序，先按年龄，再按工资，再映射为名称，最后收集进list集合*/
+        List<String> collect2 = personList.stream().sorted(Comparator.comparing(Person::getAge).thenComparing(Person::getSalary))
+                                .map(Person::getName).collect(Collectors.toList());
+        collect2.forEach(System.out::println);
+
 
     }
 }

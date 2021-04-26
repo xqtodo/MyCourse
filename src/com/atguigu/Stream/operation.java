@@ -26,7 +26,7 @@ public class operation {
         integers.forEach(System.out::println);
         System.out.println(integers);
 
-        list.stream().sorted(Comparator.comparing(s -> s));
+//        list.stream().sorted(Comparator.comparing());
 
     }
 }
